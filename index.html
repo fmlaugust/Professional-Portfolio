@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicia M. Laster - Full-Stack Developer</title>
+    <meta name="description" content="Full-Stack Developer with Global Teaching Experience - Transforming educational challenges into innovative digital solutions">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="#home" class="logo">Felicia M. Laster</a>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Full-Stack Developer with Global Teaching Experience</h1>
+                <p class="subtitle">Transforming educational challenges into innovative digital solutions</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#" class="btn btn-secondary" onclick="downloadResume()">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-photo">
+                        Professional Photo
+                        <br><small>Replace with actual headshot</small>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I'm a full-stack developer who brings a unique perspective from 5+ years of international teaching experience. My time in diverse classrooms across Korea, Saudi Arabia, and the United States taught me to break down complex problems, communicate clearly, and design solutions that work for different users.</p>
+                    <p>I apply these same skills to creating intuitive, accessible web applications that solve real-world challenges. My teaching background gives me a deep understanding of user experience and the importance of clear, logical design.</p>
+                    <div class="achievements">
+                        <div class="achievement">
+                            <i class="fas fa-globe"></i>
+                            <h4>5+ Years</h4>
+                            <p>International Teaching</p>
+                        </div>
+                        <div class="achievement">
+                            <i class="fas fa-code"></i>
+                            <h4>Full-Stack</h4>
+                            <p>Development Skills</p>
+                        </div>
+                        <div class="achievement">
+                            <i class="fas fa-users"></i>
+                            <h4>Cross-Cultural</h4>
+                            <p>Collaboration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects & Case Studies</h2>
+            
+            <div class="projects-category">
+                <h3><i class="fas fa-desktop"></i> Group I: Front-End & UX Mastery (Visual Impact)</h3>
+                <div class="projects-grid">
+                    <div class="project-card featured-project">
+                        <div class="project-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Landing Page Showcase</h3>
+                        <p>Accessibility-first layout with strong CTA, built for screen readers and keyboard navigation. Uses Tailwind for rapid, modern design.</p>
+                        <div class="project-timeline">Focus: Tailwind, Accessibility, Vanilla JS</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-plane"></i></div>
+                        <h3>Multi-Page Travel Website</h3>
+                        <p>3-4 page site with clean navigation, a dark mode toggle using CSS variables, and high-fidelity mockups (Figma).</p>
+                        <div class="project-timeline">Focus: CSS Variables, Responsive Design</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+                        <h3>Weather App (React/Vue)</h3>
+                        <p>Focuses on component architecture, state management (loading/error/data), and fetching data from the OpenWeatherMap API.</p>
+                        <div class="project-timeline">Focus: React/Vue, Component Lifecycle, API Fetch</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-book"></i></div>
+                        <h3>Dictionary App</h3>
+                        <p>Robust error handling and data presentation using JavaScript Fetch API with async/await. Built with a clean CSS Grid layout.</p>
+                        <div class="project-timeline">Focus: JS Fetch API, Error Handling</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-clock"></i></div>
+                        <h3>World Clock App</h3>
+                        <p>Minimal, functional UI demonstrating Timezone logic using the native JavaScript Internationalization (`Intl`) API.</p>
+                        <div class="project-timeline">Focus: JS Intl API, Functional UI</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-camera"></i></div>
+                        <h3>Hobby Project Gallery</h3>
+                        <p>Uses semantic HTML and advanced CSS for a smooth, manual image gallery. Features subtle CSS animations and the Intersection Observer API.</p>
+                        <div class="project-timeline">Focus: Semantic HTML, JS DOM, Advanced CSS</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-category">
+                <h3><i class="fas fa-terminal"></i> Group II: Back-End & Full-Stack Power (Technical Depth)</h3>
+                <div class="projects-grid">
+                    
+                    <div class="project-card featured-project">
+                        <div class="project-icon"><i class="fas fa-globe-americas"></i></div>
+                        <h3>Global Nomad Chronicles (MERN)</h3>
+                        <p>Full MERN Stack blog platform for international educators. Features rich-text editing, secure user authentication (JWT), and responsive design. **Your signature Full-Stack project.**</p>
+                        <div class="project-timeline">Focus: MERN Stack, Authentication, Content Management</div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-brain"></i></div>
+                        <h3>AI Travel Planner</h3>
+                        <p>Full Flask/Django backend integration with OpenAI API. Implements intelligent caching and a database to track user trip history.</p>
+                        <div class="project-timeline">Focus: Python (Flask/Django), OpenAI, SQL DB</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Interactive, deployable dashboard built with Python's Plotly Dash library. Showcases data manipulation (Pandas) and visualization skills.</p>
+                        <div class="project-timeline">Focus: Python Dash, Plotly, Pandas</div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-code-branch"></i></div>
+                        <h3>Interactive Weather API</h3>
+                        <p>Custom Python (Flask/FastAPI) backend that combines data from multiple external weather sources, accessible via a front-end JS fetch.</p>
+                        <div class="project-timeline">Focus: Python API Design, Data Aggregation</div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-feather-alt"></i></div>
+                        <h3>AI Poem Generator</h3>
+                        <p>Server-side Python logic (Flask) that calls an LLM API to generate poetry based on user-selected styles, using Jinja templating.</p>
+                        <div class="project-timeline">Focus: Python Logic, Jinja Templating, LLM API</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Python (Flask/Django)</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">LLM / OpenAI API</span>
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Netlify/Vercel</span>
+                        <span class="skill-tag">Render/Fly.io</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Soft Skills from Teaching</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Problem-solving</span>
+                        <span class="skill-tag">Analytical Thinking</span>
+                        <span class="skill-tag">Clear Communication</span>
+                        <span class="skill-tag">Documentation</span>
+                        <span class="skill-tag">UX Design Thinking</span>
+                        <span class="skill-tag">Cross-cultural Collaboration</span>
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Organization</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Continuous Learning</span>
+                        <span class="skill-tag">User Empathy</span>
+                        <span class="skill-tag">Team Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:felicia.laster@email.com">felicia.laster@email.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/felicialaster" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/felicialaster" target="_blank">GitHub Portfolio</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-download"></i>
+                        <a href="#" onclick="downloadResume()">Download Resume (PDF)</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Open to remote opportunities</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-tagline">Building bridges between education and technology</div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/felicialaster" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/felicialaster" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:felicia.laster@email.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <p>&copy; 2026 Felicia M. Laster. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
